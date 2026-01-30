@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Nébula Tech | Contacto</title>
+  <meta name="description" content="Contacta con Nébula Tech para iniciar tu proyecto tecnológico.">
+  <link rel="icon" href="img/favicon.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="logo">NébulaTech</div>
+  <nav class="nav">
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="proyecto-reservas.html">Proyecto</a></li>
+      <li><a href="cronologia.html">Cronología</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="contact-page">
+  <h2>Contacto</h2>
+
+  <form action="https://morning-paper-a0fc.contry-1990.workers.dev" method="POST" class="contact-form">
+
+    <label>Nombre
+      <input type="text" name="nombre" required>
+    </label>
+
+    <label>Email
+      <input type="email" name="email" required>
+    </label>
+
+    <label>Motivo
+      <select name="motivo" required>
+        <option value="">Selecciona una opción</option>
+        <option value="presupuesto">Presupuesto</option>
+        <option value="soporte">Soporte</option>
+        <option value="info">Información</option>
+      </select>
+    </label>
+
+    <label>Mensaje
+      <textarea name="mensaje" minlength="10" required></textarea>
+    </label>
+
+    <label class="checkbox">
+      <input type="checkbox" name="privacidad" required>
+      Acepto la política de privacidad
+    </label>
+
+    <button type="submit" class="btn-cta">Enviar mensaje</button>
+
+  </form>
+</main>
+
+<footer class="site-footer">
+  <p>© 2026 Nébula Tech - Prestigio Mundial</p>
+  <p><a href="#">Aviso legal</a> · Redes sociales</p>
+</footer>
+
+</body>
+</html>
