@@ -81,7 +81,7 @@ body {
   justify-content: center;
   align-items: center;
  background: url('../img/fondo.jpg') center/cover no-repeat;
-  color: var(--white);
+  color: var(--secondary);
   text-align: center;
 }
 
