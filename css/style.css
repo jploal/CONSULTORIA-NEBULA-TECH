@@ -74,15 +74,18 @@ body {
   width: 100%;
 }
 
+
 #hero-index {
-  height: 70vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(rgba(27, 38, 59, 0.7), rgba(27, 38, 59, 0.7)), url('../img/hero.jpg') center/cover;
+  background: url(/img/fondo.jpg) center/cover no-repeat;
   color: var(--white);
   text-align: center;
 }
+
+
 
 .hero-content h1 {
   font-size: 3rem;
@@ -108,10 +111,33 @@ body {
 }
 
 .services,
-.timeline-grid-page {
+.timeline-grid-page,
+.project-page,
+.contact-page {
   padding: 4rem 5%;
   text-align: center;
 }
+.contact-page {
+  min-height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(/img/contacto.jpg) center/cover no-repeat;
+  color: var(--white);
+  text-align: center;
+  padding: 4rem 5%;
+  position: relative;
+}
+.contact-page section {
+  background: #f0f4f8;  
+  padding: 2.5rem;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+
 
 .services-grid,
 .timeline-grid {
@@ -122,7 +148,8 @@ body {
 }
 
 .card,
-.timeline-card {
+.timeline-card,
+.project-aside {
   background: var(--white);
   padding: 2.5rem;
   border-radius: 20px;
@@ -163,30 +190,14 @@ body {
   color: #ef6c00;
 }
 
-.project-layout {
-  display: flex;
-  gap: 3rem;
-  padding: 4rem 5%;
-}
-
-.project-main {
-  flex: 3;
-}
-
-.project-aside {
-  flex: 1;
-  background: var(--white);
-  padding: 2rem;
-  border-radius: 20px;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.03);
-}
-
 .contact-form {
   max-width: 550px;
   margin: 3rem auto;
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
+  position: relative;
+  z-index: 1;
 }
 
 .contact-form input,
@@ -205,6 +216,34 @@ body {
   outline: none;
   border-color: var(--primary);
   box-shadow: 0 0 0 4px rgba(13, 27, 42, 0.1);
+}
+.contact-page section,
+.contact-page section label,
+.contact-page section input,
+.contact-page section select,
+.contact-page section textarea,
+.contact-page section button {
+  color: var(--secondary);
+}
+
+
+.checkbox {
+  font-size: 0.9rem;
+  color: #5c6b7a;
+}
+
+.project-layout {
+  display: flex;
+  gap: 3rem;
+  padding: 4rem 5%;
+}
+
+.project-main {
+  flex: 3;
+}
+
+.project-aside {
+  flex: 1;
 }
 
 .site-footer {
