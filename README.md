@@ -7,6 +7,4 @@ Es especial porque:
 Conclusiones:
 |Me ha gustado|No me ha gsutado|Mejoraría
 |-------------|----------------|---------|
-|Trabajar en CSS complejo, investigar el temario|||
-|Era demasiado ambiguo el tema|||
-|El temario|||
+|Trabajar en CSS complejo, investigar el temario|Era demasiado ambiguo el tema|El temario|
